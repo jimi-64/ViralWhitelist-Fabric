@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Viral Whitelist",
   "description": "Everyone whitelisted can whitelist their friends!",
-  "authors": [],
+  "authors": ["jimi64"],
   "contact": {},
   "license": "MIT",
   "icon": "assets/viral_whitelist/icon.png",
