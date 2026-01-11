@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "viral_whitelist",
+  "version": "${version}",
+  "name": "Viral Whitelist",
+  "description": "Everyone whitelisted can whitelist their friends!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/viral_whitelist/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "fabric-datagen": [
+    ],
+    "main": [
+      "com.jimi64.viral_whitelist.ViralWhitelist"
+    ]
+  },
+  "mixins": [
+    "viral_whitelist.mixins.json",
+    {
+      "config": "viral_whitelist.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

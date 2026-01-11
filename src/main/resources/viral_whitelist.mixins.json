@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.jimi64.viral_whitelist.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "WhitelistCommandMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
